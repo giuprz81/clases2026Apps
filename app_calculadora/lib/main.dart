@@ -20,17 +20,19 @@ class _VibeTipCalculatorState extends State<VibeTipCalculator> {
   double bill = 0;
   double tipPercent = 15;
   int numberOfPeople = 1;
-  bool roundTotal = false;
+  bool roundPerPerson = false;
 
   // 2. Agentic Engineering: Matemáticas separadas del diseño
   double get tipAmount => bill * (tipPercent / 100);
 
   double get totalAmount {
-    double total = bill + tipAmount;
-    return roundTotal ? total.roundToDouble() : total;
+    return bill + tipAmount;
   }
 
-  double get totalPerPerson => totalAmount / numberOfPeople;
+  double get totalPerPerson {
+    final amountPerPerson = totalAmount / numberOfPeople;
+    return roundPerPerson ? amountPerPerson.roundToDouble() : amountPerPerson;
+  }
 
   // 3. Diseño visual (Interfaz)
   @override
@@ -93,12 +95,12 @@ class _VibeTipCalculatorState extends State<VibeTipCalculator> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Text('Redondear total'),
+                const Text('Redondear por persona'),
                 Switch(
-                  value: roundTotal,
+                  value: roundPerPerson,
                   onChanged: (value) {
                     setState(() {
-                      roundTotal = value;
+                      roundPerPerson = value;
                     });
                   },
                 ),
