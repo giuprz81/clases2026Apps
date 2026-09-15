@@ -1,0 +1,1375 @@
+{
+"warning": "IMPORTANT: This endpoint is deprecated and no longer updated. Last update was on April 27, 2026. Switch to the new API at https://www.scorebat.com/video-api/",
+"response": [
+{
+"title": "Angers - PSG",
+"competition": "FRANCE: Ligue 1",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1730931/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/france-ligue-1/",
+"thumbnail": "https://www.scorebat.com/og/m/og1730931.jpeg",
+"date": "2026-04-25T17:00:00+00:00",
+"homeTeam": {
+"name": "Angers",
+"slug": "angers",
+"id": 1193
+},
+"awayTeam": {
+"name": "PSG",
+"slug": "psg",
+"id": 169
+},
+"videos": [
+{
+"id": "69eede64541f0",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69eede64541f0/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ee901296bf2",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ee901296bf2/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Koln - Bayer Leverkusen",
+"competition": "GERMANY: Bundesliga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1727952/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/germany-bundesliga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1727952.jpeg",
+"date": "2026-04-25T13:30:00+00:00",
+"homeTeam": {
+"name": "Koln",
+"slug": "koln",
+"id": 152
+},
+"awayTeam": {
+"name": "Bayer Leverkusen",
+"slug": "bayer-leverkusen",
+"id": 146
+},
+"videos": [
+{
+"id": "69ee907b9f786",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ee907b9f786/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Atletico Madrid - Athletic Bilbao",
+"competition": "SPAIN: La Liga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1730526/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/spain-la-liga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1730526.jpeg",
+"date": "2026-04-25T19:00:00+00:00",
+"homeTeam": {
+"name": "Atletico Madrid",
+"slug": "atletico-madrid",
+"id": 495
+},
+"awayTeam": {
+"name": "Athletic Bilbao",
+"slug": "athletic-bilbao",
+"id": 267
+},
+"videos": [
+{
+"id": "69ed938810eba",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed938810eba/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ed2f54be90f",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed2f54be90f/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Getafe - Barcelona",
+"competition": "SPAIN: La Liga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1730534/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/spain-la-liga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1730534.jpeg",
+"date": "2026-04-25T14:15:00+00:00",
+"homeTeam": {
+"name": "Getafe",
+"slug": "getafe",
+"id": 1126
+},
+"awayTeam": {
+"name": "Barcelona",
+"slug": "barcelona",
+"id": 268
+},
+"videos": [
+{
+"id": "69ed93763aa37",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed93763aa37/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ecf348c4b6b",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ecf348c4b6b/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Liverpool - Crystal Palace",
+"competition": "ENGLAND: Premier League",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1706149/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/england-premier-league/",
+"thumbnail": "https://www.scorebat.com/og/m/og1706149.jpeg",
+"date": "2026-04-25T14:00:00+00:00",
+"homeTeam": {
+"name": "Liverpool",
+"slug": "liverpool",
+"id": 242
+},
+"awayTeam": {
+"name": "Crystal Palace",
+"slug": "crystal-palace",
+"id": 456
+},
+"videos": [
+{
+"id": "69ed9358a0b56",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed9358a0b56/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ed2f90c540b",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed2f90c540b/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Arsenal - Newcastle United",
+"competition": "ENGLAND: Premier League",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1706150/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/england-premier-league/",
+"thumbnail": "https://www.scorebat.com/og/m/og1706150.jpeg",
+"date": "2026-04-25T16:30:00+00:00",
+"homeTeam": {
+"name": "Arsenal",
+"slug": "arsenal",
+"id": 227
+},
+"awayTeam": {
+"name": "Newcastle United",
+"slug": "newcastle-united",
+"id": 244
+},
+"videos": [
+{
+"id": "69ed32ca21d9f",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed32ca21d9f/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Wolves - Tottenham Hotspur",
+"competition": "ENGLAND: Premier League",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1706153/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/england-premier-league/",
+"thumbnail": "https://www.scorebat.com/og/m/og1706153.jpeg",
+"date": "2026-04-25T14:00:00+00:00",
+"homeTeam": {
+"name": "Wolves",
+"slug": "wolves",
+"id": 475
+},
+"awayTeam": {
+"name": "Tottenham Hotspur",
+"slug": "tottenham-hotspur",
+"id": 236
+},
+"videos": [
+{
+"id": "69ed2e73a60d9",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed2e73a60d9/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Bologna - Roma",
+"competition": "ITALY: Serie A",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1752237/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/italy-serie-a/",
+"thumbnail": "https://www.scorebat.com/og/m/og1752237.jpeg",
+"date": "2026-04-25T16:00:00+00:00",
+"homeTeam": {
+"name": "Bologna",
+"slug": "bologna",
+"id": 202
+},
+"awayTeam": {
+"name": "Roma",
+"slug": "roma",
+"id": 201
+},
+"videos": [
+{
+"id": "69ed0acf5ef2b",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed0acf5ef2b/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Manchester City - Southampton",
+"competition": "ENGLAND: FA Cup",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1877547/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/england-fa-cup/",
+"thumbnail": "https://www.scorebat.com/og/m/og1877547.jpeg",
+"date": "2026-04-25T16:15:00+00:00",
+"homeTeam": {
+"name": "Manchester City",
+"slug": "manchester-city",
+"id": 461
+},
+"awayTeam": {
+"name": "Southampton",
+"slug": "southampton",
+"id": 235
+},
+"videos": [
+{
+"id": "69ed0969830fa",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed0969830fa/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Mainz - Bayern Munich",
+"competition": "GERMANY: Bundesliga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1727953/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/germany-bundesliga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1727953.jpeg",
+"date": "2026-04-25T13:30:00+00:00",
+"homeTeam": {
+"name": "Mainz",
+"slug": "mainz",
+"id": 482
+},
+"awayTeam": {
+"name": "Bayern Munich",
+"slug": "bayern-munich",
+"id": 143
+},
+"videos": [
+{
+"id": "69ece9bfc5efc",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ece9bfc5efc/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Westerlo - Antwerp",
+"competition": "BELGIUM: First Division A, Conference League Group",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1877453/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/belgium-first-division-a-conference-league-group/",
+"thumbnail": "https://www.scorebat.com/og/m/og1877453.jpeg",
+"date": "2026-04-25T18:45:00+00:00",
+"homeTeam": {
+"name": "Westerlo",
+"slug": "westerlo",
+"id": 379
+},
+"awayTeam": {
+"name": "Antwerp",
+"slug": "antwerp",
+"id": 545
+},
+"videos": [
+{
+"id": "69ef659e48a12",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ef659e48a12/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ef659e48e40",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ef659e48e40/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Genk - Standard",
+"competition": "BELGIUM: First Division A, Conference League Group",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1877452/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/belgium-first-division-a-conference-league-group/",
+"thumbnail": "https://www.scorebat.com/og/m/og1877452.jpeg",
+"date": "2026-04-25T16:15:00+00:00",
+"homeTeam": {
+"name": "Genk",
+"slug": "genk",
+"id": 548
+},
+"awayTeam": {
+"name": "Standard",
+"slug": "standard",
+"id": 314
+},
+"videos": [
+{
+"id": "69ef593087441",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ef593087441/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Toulouse - Monaco",
+"competition": "FRANCE: Ligue 1",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1730930/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/france-ligue-1/",
+"thumbnail": "https://www.scorebat.com/og/m/og1730930.jpeg",
+"date": "2026-04-25T19:05:00+00:00",
+"homeTeam": {
+"name": "Toulouse",
+"slug": "toulouse",
+"id": 1091
+},
+"awayTeam": {
+"name": "Monaco",
+"slug": "monaco",
+"id": 171
+},
+"videos": [
+{
+"id": "69ee901297928",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ee901297928/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Twente - NEC",
+"competition": "NETHERLANDS: Eredivisie",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1766710/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/netherlands-eredivisie/",
+"thumbnail": "https://www.scorebat.com/og/m/og1766710.jpeg",
+"date": "2026-04-25T19:00:00+00:00",
+"homeTeam": {
+"name": "Twente",
+"slug": "twente",
+"id": 211
+},
+"awayTeam": {
+"name": "NEC",
+"slug": "nec",
+"id": 213
+},
+"videos": [
+{
+"id": "69ed941b09d7a",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed941b09d7a/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Verona - Lecce",
+"competition": "ITALY: Serie A",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1752240/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/italy-serie-a/",
+"thumbnail": "https://www.scorebat.com/og/m/og1752240.jpeg",
+"date": "2026-04-25T18:45:00+00:00",
+"homeTeam": {
+"name": "Verona",
+"slug": "verona",
+"id": 203
+},
+"awayTeam": {
+"name": "Lecce",
+"slug": "lecce",
+"id": 199
+},
+"videos": [
+{
+"id": "69ed9400a18d7",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed9400a18d7/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Valencia - Girona",
+"competition": "SPAIN: La Liga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1730531/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/spain-la-liga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1730531.jpeg",
+"date": "2026-04-25T16:30:00+00:00",
+"homeTeam": {
+"name": "Valencia",
+"slug": "valencia",
+"id": 274
+},
+"awayTeam": {
+"name": "Girona",
+"slug": "girona",
+"id": 2045
+},
+"videos": [
+{
+"id": "69ed93f4d36d0",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed93f4d36d0/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ed118f04555",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed118f04555/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Pachuca - Pumas",
+"competition": "MEXICO: Primera Division, Clausura",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1877733/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/mexico-primera-division-clausura/",
+"thumbnail": "https://www.scorebat.com/og/m/og1877733.jpeg",
+"date": "2026-04-25T23:00:00+00:00",
+"homeTeam": {
+"name": "Pachuca",
+"slug": "pachuca",
+"id": 1688
+},
+"awayTeam": {
+"name": "Pumas",
+"slug": "pumas",
+"id": 1028
+},
+"videos": [
+{
+"id": "69ed8851081cb",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed8851081cb/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Tigres - Mazatlan",
+"competition": "MEXICO: Primera Division, Clausura",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1877734/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/mexico-primera-division-clausura/",
+"thumbnail": "https://www.scorebat.com/og/m/og1877734.jpeg",
+"date": "2026-04-25T23:00:00+00:00",
+"homeTeam": {
+"name": "Tigres",
+"slug": "tigres",
+"id": 1700
+},
+"awayTeam": {
+"name": "Mazatlan",
+"slug": "mazatlan",
+"id": 27381
+},
+"videos": [
+{
+"id": "69ed76fee65f7",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed76fee65f7/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Feyenoord - Groningen",
+"competition": "NETHERLANDS: Eredivisie",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1766711/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/netherlands-eredivisie/",
+"thumbnail": "https://www.scorebat.com/og/m/og1766711.jpeg",
+"date": "2026-04-25T14:30:00+00:00",
+"homeTeam": {
+"name": "Feyenoord",
+"slug": "feyenoord",
+"id": 212
+},
+"awayTeam": {
+"name": "Groningen",
+"slug": "groningen",
+"id": 219
+},
+"videos": [
+{
+"id": "69ed418323084",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed418323084/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "NAC - Ajax",
+"competition": "NETHERLANDS: Eredivisie",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1766706/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/netherlands-eredivisie/",
+"thumbnail": "https://www.scorebat.com/og/m/og1766706.jpeg",
+"date": "2026-04-25T18:00:00+00:00",
+"homeTeam": {
+"name": "NAC",
+"slug": "nac",
+"id": 221
+},
+"awayTeam": {
+"name": "Ajax",
+"slug": "ajax",
+"id": 209
+},
+"videos": [
+{
+"id": "69ed3c3a12c02",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed3c3a12c02/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Guimaraes - Rio Ave",
+"competition": "PORTUGAL: Liga Portugal",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1801427/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/portugal-liga-portugal/",
+"thumbnail": "https://www.scorebat.com/og/m/og1801427.jpeg",
+"date": "2026-04-25T19:30:00+00:00",
+"homeTeam": {
+"name": "Guimaraes",
+"slug": "guimaraes",
+"id": 588
+},
+"awayTeam": {
+"name": "Rio Ave",
+"slug": "rio-ave",
+"id": 1592
+},
+"videos": [
+{
+"id": "69ed3a68d83ac",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed3a68d83ac/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ed3a68d92f8",
+"title": "2-0 T. Strata",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed3a68d92f8/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ed3423414da",
+"title": "1-0 Samu",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed3423414da/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Cracovia - Pogon Szczecin",
+"competition": "POLAND: Ekstraklasa",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1821417/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/poland-ekstraklasa/",
+"thumbnail": "https://www.scorebat.com/og/m/og1821417.jpeg",
+"date": "2026-04-25T18:15:00+00:00",
+"homeTeam": {
+"name": "Cracovia",
+"slug": "cracovia",
+"id": 1919
+},
+"awayTeam": {
+"name": "Pogon Szczecin",
+"slug": "pogon-szczecin",
+"id": 7335
+},
+"videos": [
+{
+"id": "69ed2b8cd95dd",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed2b8cd95dd/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Al Ahli Jeddah - Machida Zelvia",
+"competition": "ASIA: Champions League, Playoffs",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1878103/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/asia-champions-league-playoffs/",
+"thumbnail": "https://www.scorebat.com/og/m/og1878103.jpeg",
+"date": "2026-04-25T16:15:00+00:00",
+"homeTeam": {
+"name": "Al Ahli Jeddah",
+"slug": "al-ahli-jeddah",
+"id": 6093
+},
+"awayTeam": {
+"name": "Machida Zelvia",
+"slug": "machida-zelvia",
+"id": 12715
+},
+"videos": [
+{
+"id": "69ed1f0feec1c",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed1f0feec1c/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Osijek - Lokomotiva Zagreb",
+"competition": "CROATIA: HNL",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1821629/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/croatia-hnl/",
+"thumbnail": "https://www.scorebat.com/og/m/og1821629.jpeg",
+"date": "2026-04-25T16:15:00+00:00",
+"homeTeam": {
+"name": "Osijek",
+"slug": "osijek",
+"id": 333
+},
+"awayTeam": {
+"name": "Lokomotiva Zagreb",
+"slug": "lokomotiva-zagreb",
+"id": 7256
+},
+"videos": [
+{
+"id": "69ed197e1ad3a",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed197e1ad3a/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Goztepe - Antalyaspor",
+"competition": "TURKEY: Super Lig",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1747478/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/turkey-super-lig/",
+"thumbnail": "https://www.scorebat.com/og/m/og1747478.jpeg",
+"date": "2026-04-25T17:00:00+00:00",
+"homeTeam": {
+"name": "Goztepe",
+"slug": "goztepe",
+"id": 394
+},
+"awayTeam": {
+"name": "Antalyaspor",
+"slug": "antalyaspor",
+"id": 402
+},
+"videos": [
+{
+"id": "69ed17d9d283a",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed17d9d283a/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Benfica - Moreirense",
+"competition": "PORTUGAL: Liga Portugal",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1753110/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/portugal-liga-portugal/",
+"thumbnail": "https://www.scorebat.com/og/m/og1753110.jpeg",
+"date": "2026-04-25T17:00:00+00:00",
+"homeTeam": {
+"name": "Benfica",
+"slug": "benfica",
+"id": 254
+},
+"awayTeam": {
+"name": "Moreirense",
+"slug": "moreirense",
+"id": 1124
+},
+"videos": [
+{
+"id": "69ed1662a04c6",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed1662a04c6/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ed1662a1097",
+"title": "4-1 F. Ivanović",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed1662a1097/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ed1662a10f3",
+"title": "3-1 F. Ivanović",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed1662a10f3/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ecfef570a37",
+"title": "2-1 R. Rios",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ecfef570a37/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ecfef57165c",
+"title": "1-1 Diogo Travassos",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ecfef57165c/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ecf70cf1eb8",
+"title": "1-0 Leandro Barreiro",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ecf70cf1eb8/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Hamburg - Hoffenheim",
+"competition": "GERMANY: Bundesliga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1727949/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/germany-bundesliga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1727949.jpeg",
+"date": "2026-04-25T16:30:00+00:00",
+"homeTeam": {
+"name": "Hamburg",
+"slug": "hamburg",
+"id": 155
+},
+"awayTeam": {
+"name": "Hoffenheim",
+"slug": "hoffenheim",
+"id": 910
+},
+"videos": [
+{
+"id": "69ed11e9111f5",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed11e9111f5/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Slavia Praha - Olomouc",
+"competition": "CZECH REPUBLIC: 1. Liga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1585174/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/czech-republic-1-liga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1585174.jpeg",
+"date": "2026-04-25T14:00:00+00:00",
+"homeTeam": {
+"name": "Slavia Praha",
+"slug": "slavia-praha",
+"id": 114
+},
+"awayTeam": {
+"name": "Olomouc",
+"slug": "olomouc",
+"id": 384
+},
+"videos": [
+{
+"id": "69ed0fccc5b6a",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed0fccc5b6a/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Lechia Gdansk - Rakow",
+"competition": "POLAND: Ekstraklasa",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1738969/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/poland-ekstraklasa/",
+"thumbnail": "https://www.scorebat.com/og/m/og1738969.jpeg",
+"date": "2026-04-25T15:30:00+00:00",
+"homeTeam": {
+"name": "Lechia Gdansk",
+"slug": "lechia-gdansk",
+"id": 3398
+},
+"awayTeam": {
+"name": "Rakow",
+"slug": "rakow",
+"id": 1749
+},
+"videos": [
+{
+"id": "69ed03533319a",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ed03533319a/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Tondela - Nacional",
+"competition": "PORTUGAL: Liga Portugal",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1753113/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/portugal-liga-portugal/",
+"thumbnail": "https://www.scorebat.com/og/m/og1753113.jpeg",
+"date": "2026-04-25T14:30:00+00:00",
+"homeTeam": {
+"name": "Tondela",
+"slug": "tondela",
+"id": 12226
+},
+"awayTeam": {
+"name": "Nacional",
+"slug": "nacional",
+"id": 1123
+},
+"videos": [
+{
+"id": "69ecf70cf209c",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ecf70cf209c/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ece7948f7c1",
+"title": "0-2 B. Medina (p.b.)",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ece7948f7c1/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ecd7fc55956",
+"title": "0-1 Chuchu Ramírez",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ecd7fc55956/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Real Betis - Real Madrid",
+"competition": "SPAIN: La Liga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1730530/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/spain-la-liga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1730530.jpeg",
+"date": "2026-04-24T19:00:00+00:00",
+"homeTeam": {
+"name": "Real Betis",
+"slug": "real-betis",
+"id": 265
+},
+"awayTeam": {
+"name": "Real Madrid",
+"slug": "real-madrid",
+"id": 280
+},
+"videos": [
+{
+"id": "69ec38332205c",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ec38332205c/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69ebe05284b71",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ebe05284b71/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Napoli - Cremonese",
+"competition": "ITALY: Serie A",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1752241/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/italy-serie-a/",
+"thumbnail": "https://www.scorebat.com/og/m/og1752241.jpeg",
+"date": "2026-04-24T18:45:00+00:00",
+"homeTeam": {
+"name": "Napoli",
+"slug": "napoli",
+"id": 527
+},
+"awayTeam": {
+"name": "Cremonese",
+"slug": "cremonese",
+"id": 2347
+},
+"videos": [
+{
+"id": "69ebe1f6bf89a",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69ebe1f6bf89a/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Bayer Leverkusen - Bayern Munich",
+"competition": "GERMANY: National cup",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1875979/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/germany-national-cup/",
+"thumbnail": "https://www.scorebat.com/og/m/og1875979.jpeg",
+"date": "2026-04-22T18:45:00+00:00",
+"homeTeam": {
+"name": "Bayer Leverkusen",
+"slug": "bayer-leverkusen",
+"id": 146
+},
+"awayTeam": {
+"name": "Bayern Munich",
+"slug": "bayern-munich",
+"id": 143
+},
+"videos": [
+{
+"id": "69e994e3b6b6b",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e994e3b6b6b/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69e607c94ee1f",
+"title": "Live Stream",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e607c94ee1f/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "PSG - Nantes",
+"competition": "FRANCE: Ligue 1",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1730891/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/france-ligue-1/",
+"thumbnail": "https://www.scorebat.com/og/m/og1730891.jpeg",
+"date": "2026-04-22T17:00:00+00:00",
+"homeTeam": {
+"name": "PSG",
+"slug": "psg",
+"id": 169
+},
+"awayTeam": {
+"name": "Nantes",
+"slug": "nantes",
+"id": 161
+},
+"videos": [
+{
+"id": "69e9884f8405a",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e9884f8405a/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69e94707bc010",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e94707bc010/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Elche - Atletico Madrid",
+"competition": "SPAIN: La Liga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1730538/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/spain-la-liga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1730538.jpeg",
+"date": "2026-04-22T17:00:00+00:00",
+"homeTeam": {
+"name": "Elche",
+"slug": "elche",
+"id": 500
+},
+"awayTeam": {
+"name": "Atletico Madrid",
+"slug": "atletico-madrid",
+"id": 495
+},
+"videos": [
+{
+"id": "69e9883785688",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e9883785688/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69e9236434cef",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e9236434cef/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Barcelona - Celta Vigo",
+"competition": "SPAIN: La Liga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1730539/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/spain-la-liga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1730539.jpeg",
+"date": "2026-04-22T19:30:00+00:00",
+"homeTeam": {
+"name": "Barcelona",
+"slug": "barcelona",
+"id": 268
+},
+"awayTeam": {
+"name": "Celta Vigo",
+"slug": "celta-vigo",
+"id": 276
+},
+"videos": [
+{
+"id": "69e9881cb1873",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e9881cb1873/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69e9494203c52",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e9494203c52/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Burnley - Manchester City",
+"competition": "ENGLAND: Premier League",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1706156/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/england-premier-league/",
+"thumbnail": "https://www.scorebat.com/og/m/og1706156.jpeg",
+"date": "2026-04-22T19:00:00+00:00",
+"homeTeam": {
+"name": "Burnley",
+"slug": "burnley",
+"id": 455
+},
+"awayTeam": {
+"name": "Manchester City",
+"slug": "manchester-city",
+"id": 461
+},
+"videos": [
+{
+"id": "69e941491f471",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e941491f471/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Brighton - Chelsea",
+"competition": "ENGLAND: Premier League",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1706147/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/england-premier-league/",
+"thumbnail": "https://www.scorebat.com/og/m/og1706147.jpeg",
+"date": "2026-04-21T19:00:00+00:00",
+"homeTeam": {
+"name": "Brighton",
+"slug": "brighton",
+"id": 601
+},
+"awayTeam": {
+"name": "Chelsea",
+"slug": "chelsea",
+"id": 229
+},
+"videos": [
+{
+"id": "69e84ee1eaae7",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e84ee1eaae7/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69e8097e745ce",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e8097e745ce/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Real Madrid - Alaves",
+"competition": "SPAIN: La Liga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1730536/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/spain-la-liga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1730536.jpeg",
+"date": "2026-04-21T19:30:00+00:00",
+"homeTeam": {
+"name": "Real Madrid",
+"slug": "real-madrid",
+"id": 280
+},
+"awayTeam": {
+"name": "Alaves",
+"slug": "alaves",
+"id": 275
+},
+"videos": [
+{
+"id": "69e84ecf12bac",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e84ecf12bac/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69e7f3be287f4",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e7f3be287f4/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Inter Milan - Como",
+"competition": "ITALY: National cup",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1875810/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/italy-national-cup/",
+"thumbnail": "https://www.scorebat.com/og/m/og1875810.jpeg",
+"date": "2026-04-21T19:00:00+00:00",
+"homeTeam": {
+"name": "Inter Milan",
+"slug": "inter-milan",
+"id": 195
+},
+"awayTeam": {
+"name": "Como",
+"slug": "como",
+"id": 520
+},
+"videos": [
+{
+"id": "69e84a1f3a75a",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e84a1f3a75a/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Manchester City - Arsenal",
+"competition": "ENGLAND: Premier League",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1706145/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/england-premier-league/",
+"thumbnail": "https://www.scorebat.com/og/m/og1706145.jpeg",
+"date": "2026-04-19T15:30:00+00:00",
+"homeTeam": {
+"name": "Manchester City",
+"slug": "manchester-city",
+"id": 461
+},
+"awayTeam": {
+"name": "Arsenal",
+"slug": "arsenal",
+"id": 227
+},
+"videos": [
+{
+"id": "69e542eb8fafc",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e542eb8fafc/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Everton - Liverpool",
+"competition": "ENGLAND: Premier League",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1706141/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/england-premier-league/",
+"thumbnail": "https://www.scorebat.com/og/m/og1706141.jpeg",
+"date": "2026-04-19T13:00:00+00:00",
+"homeTeam": {
+"name": "Everton",
+"slug": "everton",
+"id": 240
+},
+"awayTeam": {
+"name": "Liverpool",
+"slug": "liverpool",
+"id": 242
+},
+"videos": [
+{
+"id": "69e5c5695a1c8",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e5c5695a1c8/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69e54426cadfe",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e54426cadfe/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "PSG - Lyon",
+"competition": "FRANCE: Ligue 1",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1730924/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/france-ligue-1/",
+"thumbnail": "https://www.scorebat.com/og/m/og1730924.jpeg",
+"date": "2026-04-19T18:45:00+00:00",
+"homeTeam": {
+"name": "PSG",
+"slug": "psg",
+"id": 169
+},
+"awayTeam": {
+"name": "Lyon",
+"slug": "lyon",
+"id": 162
+},
+"videos": [
+{
+"id": "69e5c5528ec57",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e5c5528ec57/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+},
+{
+"id": "69e5636f37a82",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e5636f37a82/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Juventus - Bologna",
+"competition": "ITALY: Serie A",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1752227/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/italy-serie-a/",
+"thumbnail": "https://www.scorebat.com/og/m/og1752227.jpeg",
+"date": "2026-04-19T18:45:00+00:00",
+"homeTeam": {
+"name": "Juventus",
+"slug": "juventus",
+"id": 204
+},
+"awayTeam": {
+"name": "Bologna",
+"slug": "bologna",
+"id": 202
+},
+"videos": [
+{
+"id": "69e5a02419a0b",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e5a02419a0b/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Bayern Munich - Stuttgart",
+"competition": "GERMANY: Bundesliga",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1727942/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/germany-bundesliga/",
+"thumbnail": "https://www.scorebat.com/og/m/og1727942.jpeg",
+"date": "2026-04-19T15:30:00+00:00",
+"homeTeam": {
+"name": "Bayern Munich",
+"slug": "bayern-munich",
+"id": 143
+},
+"awayTeam": {
+"name": "Stuttgart",
+"slug": "stuttgart",
+"id": 157
+},
+"videos": [
+{
+"id": "69e515bb16490",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e515bb16490/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Verona - AC Milan",
+"competition": "ITALY: Serie A",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1752226/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/italy-serie-a/",
+"thumbnail": "https://www.scorebat.com/og/m/og1752226.jpeg",
+"date": "2026-04-19T13:00:00+00:00",
+"homeTeam": {
+"name": "Verona",
+"slug": "verona",
+"id": 203
+},
+"awayTeam": {
+"name": "AC Milan",
+"slug": "ac-milan",
+"id": 196
+},
+"videos": [
+{
+"id": "69e50c4b5d4fc",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e50c4b5d4fc/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Chelsea - Manchester United",
+"competition": "ENGLAND: Premier League",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1706144/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/england-premier-league/",
+"thumbnail": "https://www.scorebat.com/og/m/og1706144.jpeg",
+"date": "2026-04-18T19:00:00+00:00",
+"homeTeam": {
+"name": "Chelsea",
+"slug": "chelsea",
+"id": 229
+},
+"awayTeam": {
+"name": "Manchester United",
+"slug": "manchester-united",
+"id": 243
+},
+"videos": [
+{
+"id": "69e410d2069f2",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e410d2069f2/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Atletico Madrid - Real Sociedad",
+"competition": "SPAIN: National cup",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1875329/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/spain-national-cup/",
+"thumbnail": "https://www.scorebat.com/og/m/og1875329.jpeg",
+"date": "2026-04-18T19:00:00+00:00",
+"homeTeam": {
+"name": "Atletico Madrid",
+"slug": "atletico-madrid",
+"id": 495
+},
+"awayTeam": {
+"name": "Real Sociedad",
+"slug": "real-sociedad",
+"id": 272
+},
+"videos": [
+{
+"id": "69e4480425d0b",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e4480425d0b/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Roma - Atalanta",
+"competition": "ITALY: Serie A",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1752232/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/italy-serie-a/",
+"thumbnail": "https://www.scorebat.com/og/m/og1752232.jpeg",
+"date": "2026-04-18T18:45:00+00:00",
+"homeTeam": {
+"name": "Roma",
+"slug": "roma",
+"id": 201
+},
+"awayTeam": {
+"name": "Atalanta",
+"slug": "atalanta",
+"id": 193
+},
+"videos": [
+{
+"id": "69e4474342607",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e4474342607/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+},
+{
+"title": "Tottenham Hotspur - Brighton",
+"competition": "ENGLAND: Premier League",
+"matchviewUrl": "https://www.scorebat.com/embed/matchview/1706139/",
+"competitionUrl": "https://www.scorebat.com/embed/competition/england-premier-league/",
+"thumbnail": "https://www.scorebat.com/og/m/og1706139.jpeg",
+"date": "2026-04-18T16:30:00+00:00",
+"homeTeam": {
+"name": "Tottenham Hotspur",
+"slug": "tottenham-hotspur",
+"id": 236
+},
+"awayTeam": {
+"name": "Brighton",
+"slug": "brighton",
+"id": 601
+},
+"videos": [
+{
+"id": "69e3f2e286a83",
+"title": "Highlights",
+"embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;background:#000;'><iframe src='https://www.scorebat.com/embed/v/69e3f2e286a83/?utm_source=api&utm_medium=video&utm_campaign=lgc' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+}
+]
+}
+]
+}
