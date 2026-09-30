@@ -1,6 +1,5 @@
-// lib/domain/usuario_repository.dart
-import 'usuario.dart';
+import '../entities/usuario.dart';
 
 abstract class UsuarioRepository {
-  Future> obtenerUsuarios();
+  Future<List<Usuario>> obtener();
 }
