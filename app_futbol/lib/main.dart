@@ -731,7 +731,7 @@ class ScoreBatWebPage extends StatefulWidget {
 
 class _ScoreBatWebPageState extends State<ScoreBatWebPage> {
   late final WebViewController _controller;
-  int _progress = 0;
+  final int _progress = 0;
   String? _error;
 
   @override
