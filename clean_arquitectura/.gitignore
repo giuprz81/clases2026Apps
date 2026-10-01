@@ -44,5 +44,9 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Configuración local con claves de Supabase.
+.env
+.env.*
+
 # Widget Preview related
 .widget_preview/
