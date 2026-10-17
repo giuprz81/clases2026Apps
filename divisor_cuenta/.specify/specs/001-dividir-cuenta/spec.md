@@ -1,149 +1,188 @@
-# Especificacion: Divisor de cuenta
+﻿# Especificación: Divisor de cuenta
 
 **Feature Branch**: `001-dividir-cuenta`  
 **Creada**: 2026-10-08  
-**Estado**: Draft  
-**Entrada**: Solicitud del usuario para una app Flutter offline de una sola pantalla que divide una cuenta.
+**Estado**: Aprobada para planificación
+**Entrada**: Solicitud de una aplicación Flutter offline de una sola pantalla para dividir una cuenta.
 
-## Decisiones aclaradas
+## 1. Decisiones aclaradas
 
-- En modo `Exacto`, el importe se redondea de forma monetaria convencional a dos decimales. Por ejemplo, `10 / 3` se muestra como `3.33`.
-- El monto valido es mayor o igual a `0`.
-- El porcentaje de propina valido esta entre `0%` y `100%`, inclusive.
-- El numero de personas valido es cualquier numero entero mayor o igual a `1`; los valores `0` y negativos deben producir el mensaje de validacion correspondiente.
-- El resultado se actualiza automaticamente al cambiar cualquier campo o el modo de redondeo. No debe existir un boton `Calcular`.
+- La aplicación tendrá una sola pantalla y funcionará completamente sin conexión.
+- El resultado se actualizará automáticamente al cambiar cualquier entrada o el modo de redondeo.
+- No existirá un botón `Calcular`.
+- El separador decimal admitido será únicamente el punto (`.`). La coma decimal no estará permitida.
+- El monto debe ser numérico y mayor o igual a cero.
+- El porcentaje de propina debe ser numérico y estar entre 0 y 100, inclusive.
+- El número de personas debe ser un entero mayor o igual a uno.
+- En modo `Exacto`, el resultado se redondeará a dos decimales mediante la regla decimal de mitad hacia arriba.
+- En modo `Redondeo hacia arriba`, se aplicará el techo matemático al importe individual y se mostrará con dos decimales.
+- Si alguna entrada es inválida, se mostrará el mensaje correspondiente y no se presentará un importe por persona.
 
-## Alcance
+## 2. Alcance
 
-La aplicacion permitira introducir el monto total, el numero de personas y el porcentaje de propina. Calculara el monto que corresponde a cada persona y permitira elegir entre resultado exacto con dos decimales o redondeo hacia arriba al siguiente entero. La experiencia sera completamente offline y estara contenida en una sola pantalla.
+La aplicación permitirá introducir el monto total de una cuenta, el número de personas y el porcentaje de propina. Calculará el total con propina y el importe correspondiente a cada persona.
 
-## Historias de usuario y pruebas
+La persona usuaria podrá seleccionar uno de dos modos:
 
-### Historia 1 - Dividir una cuenta con resultado exacto (Prioridad: P1)
+- `Exacto`: presentar el importe individual redondeado a dos decimales.
+- `Redondeo hacia arriba`: elevar el importe individual al siguiente entero cuando tenga una fracción y mostrarlo con dos decimales.
 
-Como persona que comparte una cuenta, quiero introducir el monto, el numero de personas y la propina para conocer cuanto debe pagar cada persona.
+El cálculo será local. No se utilizarán cuentas, servicios remotos, persistencia ni conexión a Internet.
 
-**Por que esta prioridad**: Es el flujo principal y el valor minimo viable de la aplicacion.
+## 3. Historias de usuario y pruebas
 
-**Prueba independiente**: Introducir datos validos y comprobar que el resumen muestra el importe individual correcto con dos decimales.
+### Historia 1 — Dividir una cuenta con resultado exacto (Prioridad: P1)
 
-**Escenarios de aceptacion**:
+Como persona que comparte una cuenta, quiero introducir el monto, el número de personas y la propina para conocer cuánto debe pagar cada persona.
 
-1. **Dado** un monto de 100, 4 personas, 10% de propina y modo Exacto, **cuando** se calcula la cuenta, **entonces** se muestra `27.50` por persona.
-2. **Dado** un monto de 90, 3 personas, 0% de propina y modo Exacto, **cuando** se calcula la cuenta, **entonces** se muestra `30.00` por persona.
-3. **Dado** un monto de 10, 3 personas, 0% de propina y modo Exacto, **cuando** se calcula la cuenta, **entonces** se muestra `3.33` por persona.
+**Por qué esta prioridad:** Es el flujo principal y el valor mínimo viable de la aplicación.
 
-### Historia 2 - Validar entradas (Prioridad: P1)
+**Prueba independiente:** Introducir datos válidos y comprobar que el resumen muestra el importe individual correcto con dos decimales.
 
-Como persona usuaria, quiero recibir mensajes claros cuando los datos no se pueden calcular para corregirlos sin ambiguedad.
+**Escenarios de aceptación:**
 
-**Por que esta prioridad**: Evita resultados invalidos y permite completar el flujo principal de manera segura.
+1. **Dado** un monto de 100, 4 personas, 10 % de propina y modo `Exacto`, **cuando** se calcula, **entonces** se muestra `27.50` por persona.
+2. **Dado** un monto de 90, 3 personas, 0 % de propina y modo `Exacto`, **cuando** se calcula, **entonces** se muestra `30.00` por persona.
+3. **Dado** un monto de 10, 3 personas, 0 % de propina y modo `Exacto`, **cuando** se calcula, **entonces** se muestra `3.33` por persona.
 
-**Prueba independiente**: Introducir valores invalidos y verificar el mensaje correspondiente y la ausencia de un resultado.
+### Historia 2 — Validar entradas (Prioridad: P1)
 
-**Escenarios de aceptacion**:
+Como persona usuaria, quiero recibir mensajes claros cuando los datos no se puedan calcular para corregirlos sin ambigüedad.
 
-1. **Dado** un monto de 50 y 0 personas, **cuando** se intenta calcular, **entonces** se muestra `Debe haber al menos una persona` y no se muestra un resultado por persona.
-2. **Dado** el texto `abc` como monto, **cuando** se intenta calcular, **entonces** se muestra `Monto invalido` y no se muestra un resultado por persona.
+**Por qué esta prioridad:** Evita resultados inválidos y permite completar el flujo principal de manera segura.
 
-### Historia 3 - Elegir redondeo (Prioridad: P2)
+**Prueba independiente:** Introducir valores inválidos, verificar el mensaje correspondiente y comprobar que no se presenta un importe por persona.
+
+**Escenarios de aceptación:**
+
+1. **Dado** un monto de 50 y 0 personas, **cuando** se intenta calcular, **entonces** se muestra `Debe haber al menos una persona` y no se presenta un importe por persona.
+2. **Dado** un monto vacío, formado solo por espacios o con el texto `abc`, **cuando** se intenta calcular, **entonces** se muestra `Monto invalido` y no se presenta un importe por persona.
+3. **Dado** un monto negativo, **cuando** se intenta calcular, **entonces** se muestra `El monto no puede ser negativo` y no se presenta un importe por persona.
+4. **Dado** un porcentaje de propina inferior a 0 o superior a 100, **cuando** se intenta calcular, **entonces** se muestra `La propina debe estar entre 0 y 100` y no se presenta un importe por persona.
+5. **Dado** un porcentaje de propina vacío o no numérico, **cuando** se intenta calcular, **entonces** se muestra `Propina invalida` y no se presenta un importe por persona.
+6. **Dado** un monto que utiliza coma decimal, como `12,50`, **cuando** se intenta calcular, **entonces** se muestra `Monto invalido` y no se presenta un importe por persona.
+7. **Dado** un número de personas no entero, como `2.5`, **cuando** se intenta calcular, **entonces** se muestra `El número de personas debe ser un entero` y no se presenta un importe por persona.
+
+Los valores negativos enteros del número de personas también deberán mostrar `Debe haber al menos una persona`.
+
+### Historia 3 — Elegir el modo de redondeo (Prioridad: P2)
 
 Como persona usuaria, quiero elegir la forma de redondear para adaptar el resultado a la forma de pago del grupo.
 
-**Por que esta prioridad**: Es una necesidad explicita del producto despues del calculo exacto basico.
+**Por qué esta prioridad:** Es una necesidad del producto después del cálculo exacto básico.
 
-**Prueba independiente**: Seleccionar cada modo con los mismos datos y comprobar que el importe mostrado respeta su contrato.
+**Prueba independiente:** Seleccionar cada modo con los mismos datos y comprobar que el importe mostrado respeta su contrato.
 
-**Escenarios de aceptacion**:
+**Escenarios de aceptación:**
 
-1. **Dado** un monto de 10, 3 personas, 0% de propina y modo Exacto, **cuando** se calcula, **entonces** se muestra `3.33`.
-2. **Dado** un monto de 10, 3 personas, 0% de propina y modo Redondeo hacia arriba, **cuando** se calcula, **entonces** se muestra `4.00`.
+1. **Dado** un monto de 10, 3 personas, 0 % de propina y modo `Exacto`, **cuando** se calcula, **entonces** se muestra `3.33`.
+2. **Dado** un monto de 10, 3 personas, 0 % de propina y modo `Redondeo hacia arriba`, **cuando** se calcula, **entonces** se muestra `4.00`.
+3. **Dado** un monto de 2.01, 2 personas, 0 % de propina y modo `Exacto`, **cuando** se calcula, **entonces** se muestra `1.01`, aplicando redondeo decimal de mitad hacia arriba.
 
-### Historia 4 - Funcionamiento offline (Prioridad: P2)
+### Historia 4 — Funcionamiento offline (Prioridad: P2)
 
-Como persona usuaria, quiero usar el divisor sin conexion para calcular la cuenta en cualquier lugar.
+Como persona usuaria, quiero usar el divisor sin conexión para calcular la cuenta en cualquier lugar.
 
-**Por que esta prioridad**: El calculo es local y no debe depender de disponibilidad de red.
+**Por qué esta prioridad:** El cálculo es local y no debe depender de la disponibilidad de red.
 
-**Prueba independiente**: Ejecutar el flujo sin acceso de red y comprobar que las entradas, el calculo y el resultado siguen funcionando.
+**Prueba independiente:** Ejecutar el flujo sin acceso de red y comprobar que las entradas, el cálculo y el resultado siguen funcionando.
 
-**Escenarios de aceptacion**:
+**Escenario de aceptación:**
 
-1. **Dado** que el dispositivo no tiene conexion, **cuando** se introducen datos validos, **entonces** se puede obtener el resultado sin solicitudes de red ni mensajes de conectividad.
+1. **Dado** que el dispositivo no tiene conexión, **cuando** se introducen datos válidos y se cambia el modo de redondeo, **entonces** la aplicación calcula y actualiza el resultado sin solicitudes de red ni mensajes de conectividad.
 
-## Requisitos funcionales
+## 4. Requisitos funcionales
 
-- **FR-001**: La aplicacion MUST presentar una unica pantalla para el flujo completo.
-- **FR-002**: La aplicacion MUST permitir introducir un monto total de cuenta.
-- **FR-003**: La aplicacion MUST permitir introducir el numero de personas, incluyendo temporalmente valores invalidos para poder mostrar su validacion.
-- **FR-004**: La aplicacion MUST permitir introducir un porcentaje de propina y validar que este entre 0 y 100, inclusive.
-- **FR-004a**: La aplicacion MUST validar que el monto sea numerico y mayor o igual a 0.
-- **FR-004b**: La aplicacion MUST validar que el numero de personas sea un entero mayor o igual a 1.
-- **FR-005**: La aplicacion MUST calcular el total sumando al monto la propina porcentual.
-- **FR-006**: La aplicacion MUST calcular el importe base por persona dividiendo el total entre el numero de personas.
-- **FR-007**: La aplicacion MUST ofrecer exactamente los modos `Exacto` y `Redondeo hacia arriba`.
-- **FR-008**: En modo `Exacto`, la aplicacion MUST aplicar redondeo monetario convencional y mostrar el importe por persona con exactamente dos decimales.
-- **FR-009**: En modo `Redondeo hacia arriba`, la aplicacion MUST redondear hacia arriba el importe por persona al siguiente valor entero y mostrarlo con dos decimales.
-- **FR-010**: Si el numero de personas es menor que 1, la aplicacion MUST mostrar `Debe haber al menos una persona` y no mostrar un importe por persona.
-- **FR-011**: Si el monto no puede interpretarse como numero, la aplicacion MUST mostrar `Monto invalido` y no mostrar un importe por persona.
-- **FR-012**: La aplicacion MUST recalcular y actualizar automaticamente el resultado cuando cambie cualquier campo o el modo de redondeo; no debe requerir un boton `Calcular`.
-- **FR-013**: La aplicacion MUST realizar todos los calculos localmente y no requerir red, cuenta, backend ni persistencia de datos.
-- **FR-014**: Las reglas de calculo y validacion MUST estar separadas de la interfaz de usuario y ubicarse en el dominio independiente de Flutter.
-- **FR-015**: La solucion MUST incluir pruebas automatizadas para cada requisito funcional y escenario de aceptacion relevante.
+- **FR-001:** La aplicación MUST presentar una única pantalla para el flujo completo.
+- **FR-002:** La aplicación MUST permitir introducir un monto total de cuenta.
+- **FR-003:** La aplicación MUST permitir introducir el número de personas, incluidos temporalmente valores inválidos para poder mostrar su validación.
+- **FR-004:** La aplicación MUST permitir introducir un porcentaje de propina y validar que esté entre 0 y 100, inclusive.
+- **FR-004a:** La aplicación MUST validar que el monto sea numérico y mayor o igual a cero.
+- **FR-004b:** La aplicación MUST validar que el número de personas sea un entero mayor o igual a uno.
+- **FR-004c:** La aplicación MUST aceptar únicamente el punto como separador decimal.
+- **FR-005:** La aplicación MUST calcular la propina porcentual sobre el monto y sumarla para obtener el total.
+- **FR-006:** La aplicación MUST calcular el importe individual dividiendo el total entre el número de personas, después de validar las entradas.
+- **FR-007:** La aplicación MUST ofrecer exactamente los modos `Exacto` y `Redondeo hacia arriba`.
+- **FR-008:** En modo `Exacto`, la aplicación MUST aplicar redondeo decimal de mitad hacia arriba a dos decimales y mostrar exactamente dos decimales.
+- **FR-009:** En modo `Redondeo hacia arriba`, la aplicación MUST aplicar techo matemático al importe individual y mostrar el resultado con dos decimales.
+- **FR-010:** Si el número de personas es cero o negativo, la aplicación MUST mostrar `Debe haber al menos una persona` y no presentar un importe por persona.
+- **FR-011:** Si el monto está vacío, no es numérico o utiliza coma decimal, la aplicación MUST mostrar `Monto invalido` y no presentar un importe por persona.
+- **FR-011a:** Si el monto es negativo, la aplicación MUST mostrar `El monto no puede ser negativo` y no presentar un importe por persona.
+- **FR-011b:** Si el número de personas no es entero, la aplicación MUST mostrar `El número de personas debe ser un entero` y no presentar un importe por persona.
+- **FR-011c:** Si la propina está vacía o no es numérica, la aplicación MUST mostrar `Propina invalida` y no presentar un importe por persona.
+- **FR-011d:** Si la propina está fuera del rango permitido, la aplicación MUST mostrar `La propina debe estar entre 0 y 100` y no presentar un importe por persona.
+- **FR-012:** La aplicación MUST recalcular y actualizar automáticamente el resultado cuando cambie cualquier entrada válida o el modo de redondeo. No debe requerir un botón `Calcular`.
+- **FR-013:** La aplicación MUST realizar todos los cálculos localmente y no requerir red, cuenta, backend ni persistencia de datos.
+- **FR-014:** Las reglas de cálculo y validación MUST estar separadas de la interfaz de usuario y ubicarse en un dominio independiente de Flutter.
+- **FR-015:** La solución MUST incluir pruebas automatizadas para las reglas de dominio y los escenarios de aceptación relevantes.
 
-## Reglas de calculo
+## 5. Reglas de cálculo
 
-- La propina se calcula como `monto * porcentaje / 100`.
-- El total se calcula como `monto + propina`.
-- El importe base por persona se calcula como `total / personas` despues de validar que `personas >= 1`.
-- El modo Exacto conserva el resultado calculado y lo presenta con dos decimales.
-- El modo Redondeo hacia arriba aplica techo matematico al importe por persona y lo presenta con dos decimales; por ejemplo, `3.333...` se muestra como `4.00`.
-- Una entrada vacia, no numerica o con un formato que no pueda convertirse a numero se considera un monto invalido.
+1. La propina se calcula como `monto * porcentaje / 100`.
+2. El total se calcula como `monto + propina`.
+3. El importe individual se calcula como `total / personas`, después de validar que `personas >= 1` y que sea un entero.
+4. El modo `Exacto` aplica redondeo decimal de mitad hacia arriba a dos decimales. Por ejemplo, `2.01 / 2 = 1.005` se presenta como `1.01`.
+5. El modo `Redondeo hacia arriba` aplica techo matemático al importe individual. Por ejemplo, `3.333...` se presenta como `4.00`; un importe que ya sea entero se mantiene sin incremento y se presenta con dos decimales.
+6. Todos los resultados visibles deben tener exactamente dos decimales.
+7. La implementación debe evitar que los errores de representación binaria de números decimales alteren la regla monetaria de redondeo.
+8. El punto es el único separador decimal permitido.
+9. Una entrada vacía, no numérica o con un formato no admitido se considera inválida.
+10. Si hay errores de validación, no debe mostrarse un importe individual calculado a partir de entradas inválidas.
 
-## Casos limite
+## 6. Casos límite
 
-- Monto vacio o formado solo por espacios: mostrar `Monto invalido`.
-- Monto `abc` o cualquier texto no numerico: mostrar `Monto invalido`.
-- Monto negativo: mostrar un mensaje de validacion y no mostrar un importe por persona.
-- Numero de personas igual a 0 o negativo: mostrar `Debe haber al menos una persona`.
+- Monto vacío o formado solo por espacios: `Monto invalido`.
+- Monto `abc`: `Monto invalido`.
+- Monto con coma decimal, por ejemplo `12,50`: `Monto invalido`.
+- Monto negativo: `El monto no puede ser negativo`.
+- Número de personas igual a cero o negativo: `Debe haber al menos una persona`.
+- Número de personas no entero: `El número de personas debe ser un entero`.
+- Propina vacía o no numérica: `Propina invalida`.
+- Propina menor que 0 o mayor que 100: `La propina debe estar entre 0 y 100`.
 - Propina igual a 0: calcular sin cargo adicional.
-- Propina menor que 0 o mayor que 100: mostrar un mensaje de validacion y no mostrar un importe por persona.
+- Propina igual a 100: aceptar y calcular normalmente.
 - Resultado exacto entero: mantener dos decimales, por ejemplo `30.00`.
-- Resultado exacto con fraccion: aplicar redondeo monetario convencional a dos decimales; por ejemplo, `10 / 3` se muestra como `3.33`.
-- Cambio de modo con entradas invalidas: mantener el mensaje de validacion y no mostrar un resultado.
-- Sin conexion: el flujo no debe fallar ni intentar acceder a servicios externos.
+- Resultado exacto con fracción: aplicar redondeo decimal de mitad hacia arriba a dos decimales.
+- Cambio de modo con entradas inválidas: mantener los mensajes de validación y no presentar un resultado.
+- Sin conexión: el flujo no debe fallar ni intentar acceder a servicios externos.
 
-## Entidades y conceptos del dominio
+## 7. Entidades y conceptos del dominio
 
-- **EntradaCuenta**: monto, numero de personas y porcentaje de propina introducidos por la persona usuaria.
-- **ModoRedondeo**: enumeracion de dominio con `exacto` y `redondeoHaciaArriba`.
-- **ResultadoDivision**: total calculado, importe por persona y modo aplicado.
-- **ErrorDivision**: resultado de validacion con los mensajes de negocio definidos.
+- **EntradaCuenta:** monto, número de personas y porcentaje de propina introducidos por la persona usuaria.
+- **EstrategiaRedondeo:** abstracción del dominio que define la operación de redondeo del importe por persona.
+- **ResultadoDivision:** total calculado, importe por persona y modo de redondeo aplicado, conservando la información necesaria para presentarlo sin depender de una implementación concreta.
+- **ErrorDivision:** resultado de validación con los mensajes de negocio definidos.
 
-## Arquitectura y restricciones
+Las implementaciones concretas de la abstracción serán `RedondeoExacto` y `RedondeoHaciaArriba`, ubicadas en `lib/data/`. La primera aplicará redondeo decimal de mitad hacia arriba a dos decimales; la segunda aplicará techo matemático al importe por persona.
 
-- Mantener la direccion de dependencias `presentation -> domain <- data`.
+## 8. Arquitectura y restricciones
+
+- Mantener la dirección de dependencias entre presentación y dominio, evitando que el dominio dependa de la interfaz o de las implementaciones concretas.
+- Definir `EstrategiaRedondeo` en `lib/domain/` y sus implementaciones concretas en `lib/data/`.
 - El dominio no debe importar Flutter ni detalles de interfaz o plataforma.
-- La presentacion debe adaptar entradas y mostrar estados; no debe contener reglas de calculo.
-- No se requieren fuentes de datos ni persistencia; la capa `data` solo se creara si una especificacion posterior la necesita.
-- Aplicar null safety y usar nombres en espanol para clases, metodos y variables del dominio.
+- `CalcularDivision` debe recibir la estrategia mediante la abstracción del dominio y delegar en ella el redondeo, sin seleccionar implementaciones concretas mediante comprobaciones de tipo o un `switch` sobre la estrategia.
+- La presentación debe adaptar las entradas, mostrar los estados y presentar los resultados; no debe contener reglas de cálculo.
+- `lib/main.dart` será el único punto de composición de las estrategias concretas y sus dependencias.
+- Aplicar null safety y usar nombres en español para clases, métodos y variables del dominio.
 - No agregar paquetes externos.
-- Mantener la aplicacion offline y de una sola pantalla.
-- Las decisiones de diseño deben demostrar los principios SOLID de la Constitucion y producir codigo que el estudiante pueda explicar.
-- No modificar las carpetas de plataforma, dependencias ni tests existentes sin autorizacion explicita.
+- Mantener la aplicación offline y de una sola pantalla.
+- Aplicar los principios SOLID de forma proporcional al ejercicio, con decisiones justificadas y código que el estudiante pueda explicar.
+- No crear abstracciones adicionales que no aporten valor a los requisitos ni a la arquitectura exigida.
+- No modificar las carpetas de plataforma, las dependencias ni los tests existentes sin autorización explícita.
 
-## Criterios de exito
+## 9. Criterios de éxito
 
-- **SC-001**: Los seis casos numericos de aceptacion producen exactamente los valores y mensajes especificados.
-- **SC-002**: El 100% de las reglas de validacion y calculo del dominio tiene pruebas automatizadas.
-- **SC-003**: El 100% de las interacciones visibles principales tiene pruebas de widget o pruebas automatizadas equivalentes.
-- **SC-004**: El flujo completo funciona sin conexion y no realiza llamadas de red.
-- **SC-005**: `flutter analyze` y `flutter test` terminan correctamente antes de aceptar la implementacion.
+- **SC-001:** Los 13 escenarios de aceptación de las historias 1 a 3 producen los resultados o mensajes especificados.
+- **SC-002:** El 100 % de las reglas de validación y cálculo del dominio tiene pruebas automatizadas.
+- **SC-003:** El 100 % de las interacciones visibles principales tiene pruebas de widget o pruebas automatizadas equivalentes.
+- **SC-004:** El flujo completo funciona sin conexión y la aplicación no realiza llamadas de red durante la entrada, el cálculo ni el cambio de modo.
+- **SC-005:** `flutter analyze` y `flutter test` terminan correctamente antes de aceptar la implementación.
 
-## Supuestos
+## 10. Supuestos
 
-- El monto y la propina se expresan en la moneda local mostrada por la interfaz; la especificacion no requiere selector de moneda.
-- La entrada decimal puede usar punto y, de forma conveniente, coma como separador decimal si la interfaz lo admite.
-- El resultado se recalcula en vivo; no existe una accion separada para confirmar el calculo.
+- El monto y la propina se expresan en la moneda indicada por la interfaz; no se requiere selector de moneda.
+- La entrada decimal utiliza punto; la coma no se admite como separador decimal.
+- El resultado se recalcula automáticamente; no existe una acción separada para confirmar el cálculo.
 - No se requiere guardar historiales, perfiles, datos personales ni resultados entre sesiones.
-- La implementacion se realizara despues de aprobar esta especificacion y de completar el plan y las tareas correspondientes.
+- No se requieren servicios externos ni persistencia.
+- La implementación se realizará después de aprobar esta especificación y de completar la revisión del plan y las tareas correspondientes.

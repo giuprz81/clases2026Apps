@@ -1,0 +1,1 @@
+enum ModoRedondeo { exacto, redondeoHaciaArriba }
