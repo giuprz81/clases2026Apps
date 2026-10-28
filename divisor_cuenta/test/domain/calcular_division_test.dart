@@ -35,7 +35,7 @@ void main() {
       final resultado = (respuesta as DivisionExitosa).resultado;
       expect(resultado.totalCuenta, 110);
       expect(resultado.propina, 10);
-      expect(resultado.montoPorPersona, 27.50);
+      expect(resultado.montoPorPersona, 27.5);
     });
 
     test('divide exactamente sin propina', () {

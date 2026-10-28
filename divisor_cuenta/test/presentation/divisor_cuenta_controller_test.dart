@@ -111,6 +111,31 @@ void main() {
       expect(controlador.resultado, isNull);
     });
 
+    test('rechaza una propina superior al 100%', () {
+      controlador.calcular(
+        textoMonto: '100',
+        textoPersonas: '4',
+        textoPropina: '150',
+        modoRedondeo: ModoRedondeo.exacto,
+      );
+
+      expect(
+        controlador.mensajeError,
+        'La propina no puede superar el 100%',
+      );
+    });
+
+    test('acepta una propina del 100%', () {
+      controlador.calcular(
+        textoMonto: '100',
+        textoPersonas: '4',
+        textoPropina: '100',
+        modoRedondeo: ModoRedondeo.exacto,
+      );
+
+      expect(controlador.mensajeError, isNull);
+    });
+
     test('limpia el error anterior cuando el cálculo es válido', () {
       controlador.calcular(
         textoMonto: '',

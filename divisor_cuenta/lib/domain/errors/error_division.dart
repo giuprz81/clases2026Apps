@@ -4,7 +4,7 @@ enum ErrorDivision {
   personasInsuficientes('Debe haber al menos una persona'),
   personasNoEnteras('El número de personas debe ser un entero'),
   propinaInvalida('Propina invalida'),
-  propinaFueraDeRango('La propina debe estar entre 0 y 100');
+  propinaFueraDeRango('La propina no puede superar el 100%');
 
   const ErrorDivision(this.mensaje);
 

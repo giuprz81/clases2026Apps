@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../data/strategies/redondeo_exacto.dart';
 import '../../data/strategies/redondeo_hacia_arriba.dart';
 import '../../domain/enums/modo_redondeo.dart';
+import '../../domain/errors/error_division.dart';
 import '../controllers/divisor_cuenta_controller.dart';
 import '../widgets/formulario_cuenta.dart';
 import '../widgets/resumen_division.dart';
@@ -83,7 +84,11 @@ class _DivisorCuentaPageState extends State<DivisorCuentaPage> {
   @override
   Widget build(BuildContext context) {
     final resultado = _controladorDivision.resultado;
-    final mensajeError = _controladorDivision.mensajeError;
+    final mensajeError =
+        _controladorDivision.mensajeError ==
+            ErrorDivision.propinaFueraDeRango.mensaje
+        ? 'La propina debe estar entre 0 y 100'
+        : _controladorDivision.mensajeError;
 
     return Scaffold(
       appBar: AppBar(title: const Text('Divisor de cuenta'), centerTitle: true),
