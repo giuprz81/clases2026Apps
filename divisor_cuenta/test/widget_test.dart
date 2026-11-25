@@ -1,30 +1,37 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
-import 'package:flutter/material.dart';
+import 'package:divisor_cuenta/main.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:divisor_cuenta/main.dart';
-
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  testWidgets('calcula el valor que paga cada persona', (tester) async {
+    await tester.pumpWidget(const DivisorCuentaApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
-
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
+    await tester.enterText(find.byKey(const Key('amountField')), '100');
     await tester.pump();
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
+    final addPerson = find.byKey(const Key('addPerson'));
+    await tester.ensureVisible(addPerson);
+    await tester.tap(addPerson);
+    await tester.pump();
+
+    expect(find.text('3'), findsOneWidget);
+
+    await tester.drag(find.byType(ListView), const Offset(0, -600));
+    await tester.pumpAndSettle();
+
+    expect(find.byKey(const Key('perPersonAmount')), findsOneWidget);
+    expect(find.text('\$36.67'), findsOneWidget);
+  });
+
+  testWidgets('no permite menos de una persona', (tester) async {
+    await tester.pumpWidget(const DivisorCuentaApp());
+
+    final removePerson = find.byKey(const Key('removePerson'));
+    await tester.tap(removePerson);
+    await tester.pump();
+    await tester.tap(removePerson);
+    await tester.pump();
+
     expect(find.text('1'), findsOneWidget);
   });
 }
