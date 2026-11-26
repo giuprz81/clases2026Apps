@@ -1,0 +1,4 @@
+# AgentDojo oficial (ETH Zurich), fijado a un commit concreto.
+# Commit 089ed468 (2026-06-02): añade el proveedor "openai-compatible" (issue #148 / PR #147).
+# La versión publicada en PyPI (0.1.35) es anterior a ese cambio.
+agentdojo @ git+https://github.com/ethz-spylab/agentdojo@089ed468cf3ed0322acc66b0211f26d9d90dbf60

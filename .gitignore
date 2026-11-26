@@ -3,3 +3,20 @@
 **/.idea/
 **/android/.gradle/
 **/ios/Pods/
+
+# Repositorios independientes
+calculadora-seguridad-agentic-s13/
+deber6-agentes/
+
+# Configuracion local de cyber-detective
+cyber-detective/.claude/
+
+# Evidencia de prueba que no se debe entregar
+cyber-detective/evidencias/04_sesion_sin_skill_preliminar.png
+
+# Respaldos y versiones auxiliares de divisor_cuenta
+divisor_cuenta/.specify/specs/001-dividir-cuenta/respaldo_pre_actualizacion_20261013_231843/
+divisor_cuenta/.specify/specs/001-dividir-cuenta/spec.backup.md
+divisor_cuenta/.specify/specs/001-dividir-cuenta/spec_actualizado.md
+divisor_cuenta/.specify/specs/001-dividir-cuenta/spec_actualizado_codificacion_backup.md
+divisor_cuenta/.specify/specs/001-dividir-cuenta/spec_actualizado_reparado.md

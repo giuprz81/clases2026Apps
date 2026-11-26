@@ -1,0 +1,5 @@
+{
+  "_aviso": "Equivale a no tener control: permite todo. Solo para la ronda Red en el entorno simulado de AgentDojo.",
+  "default": "allow",
+  "rules": []
+}
